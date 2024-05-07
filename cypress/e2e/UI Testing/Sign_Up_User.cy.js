@@ -4,7 +4,7 @@ import {signupuser} from '../../Selectors/UI Selectors/Signupuser'
 const obj1 = new signupuser();
 
 
-import credentials from '../../fixtures/Signup.json';
+import credentials from '../../fixtures/Signup_For_UI.json';
 
 describe('Login the user', ()=>{
     it('Login the user', ()=>{
